@@ -1,0 +1,52 @@
+include partials/_header
+body.palette-banana
+    .container
+        div.col-md-6.col-md-offset-3
+            div.text-center
+                img.logo(src="assets/images/logo-black.png")
+                p.text-right Step 2 / 10
+                .progress
+                    .progress-bar.progress-bar-info(role='progressbar', style='width: 20%;')
+
+            h3.text-center What are your goals?
+            p.text-center Select goals that are most relevant to you
+
+            //- Goals section
+            div
+                #goals.list-group
+                    a.list-group-item(href='#fakeLink')
+                      .pull-left
+                        i.material-icons.icon-2x trending_up
+                      .media-body
+                        h4.list-group-item-heading Drive more traffic
+                        p.list-group-item-text Create and enhance organic inbound traffic
+                    a.list-group-item.active(href='#fakeLink')
+                      .pull-left
+                        i.material-icons.icon-2x search
+                      .media-body
+                        h4.list-group-item-heading Rank better
+                        p.list-group-item-text Rank higher up the search for specific keywords
+                    a.list-group-item(href='#fakeLink')
+                      .pull-left
+                        i.material-icons.icon-2x verified_user
+                      .media-body
+                        h4.list-group-item-heading Increase brand awareness
+                        p.list-group-item-text Use search as a tool to increase brand awareness
+                    a.list-group-item(href='#fakeLink')
+                      .pull-left
+                        i.material-icons.icon-2x credit_card
+                      .media-body
+                        h4.list-group-item-heading Increase sales
+                        p.list-group-item-text Improve your sales workflow
+
+            //- Navigation buttons
+            div
+                .col-sm-6
+                    a.btn-block.btn.btn-success(href="i-want-to-learn.html")
+                        |  Back
+                .col-sm-6
+                    a.btn-block.btn.btn-success(href="nugget-1.html")
+                        |  Continue
+
+
+include partials/_footer

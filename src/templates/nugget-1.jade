@@ -1,0 +1,44 @@
+include partials/_header
+body.palette-banana
+    .container
+        div.col-md-6.col-md-offset-3
+            div.text-center
+                img.logo(src="assets/images/logo-black.png")
+                p.text-right Step 3 / 10
+                .progress
+                    .progress-bar.progress-bar-info(role='progressbar', style='width: 30%;')
+
+            //- Nugget
+            h3  70% of websites are ranked under the wrong keywords
+
+            //- Reason for asking
+            p
+                | Isn't that just unfortunate?
+            p
+                | By telling us a little about your business, we can ensure that this never happens to you!
+            //- Signup form
+            div
+                label.form-label Your name:
+                input.form-control(type="text", placeholder="")
+
+                label.form-label Name of your company:
+                input.form-control(type="text", placeholder="")
+
+                label.form-label Industry you operate in:
+                input.form-control(type="text", placeholder="")
+
+
+            p.text-muted.space-top.text-center
+                | Don't worry. You can update this information later.
+
+            //- Navigation buttons
+            div.row.space-top
+                .col-sm-6
+                    a.btn-block.btn.btn-success(href="goals.html")
+                        |  Back
+                .col-sm-6
+                    a.btn-block.btn.btn-success(href="keywords.html")
+                        |  Continue
+
+
+include partials/_footer

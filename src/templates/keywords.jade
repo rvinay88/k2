@@ -1,0 +1,45 @@
+include partials/_header
+body.palette-banana
+    .container
+        div.col-md-6.col-md-offset-3
+            div.text-center
+                img.logo(src="assets/images/logo-black.png")
+                p.text-right Step 4 / 10
+                .progress
+                    .progress-bar.progress-bar-info(role='progressbar', style='width: 40%;')
+
+            //- Nugget
+            h3  Choosing the right keyword alone boosts SEO performance by 20%
+
+            //- Reason for asking
+            p
+                | Based on the information you provided, here's a list of keywords that will work for your business
+
+            //- Signup form
+            div
+                label.form-label Selected Keywords:
+                textarea.form-control(type="text", placeholder="")
+                p.space-top
+                    | Tap on the ones you find most relevant or type in your own
+            h4
+                span.label.label-info.half-space-left Bistro
+                span.label.label-info.half-space-left Menu
+                span.label.label-info.half-space-left Hours
+                span.label.label-info.half-space-left Reviews
+                span.label.label-info.half-space-left Address
+
+
+            p.text-muted.space-top.text-center
+                | You can confirm these later.
+
+            //- Navigation buttons
+            div.row.space-top
+                .col-sm-6
+                    a.btn-block.btn.btn-success(href="nugget-1.html")
+                        |  Back
+                .col-sm-6
+                    a.btn-block.btn.btn-success(href="lesson-1.html")
+                        |  Continue
+
+
+include partials/_footer

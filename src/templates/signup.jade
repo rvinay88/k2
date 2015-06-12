@@ -1,0 +1,62 @@
+include partials/_header
+body.palette-banana
+    .container
+        div.col-md-6.col-md-offset-3
+            div.text-center
+                img.logo(src="assets/images/logo-black.png")
+                p.text-right Step 5 / 10
+                .progress
+                    .progress-bar.progress-bar-info(role='progressbar', style='width: 50%;')
+
+            //- Nugget
+            h3  Save your progress!
+
+            .content.space-top
+
+                ul.list-group
+                    li.list-group-item
+                        span.done Set SEO goals
+                        i.pull-right.ss-check
+                      li.list-group-item
+                        span.done Categorize Business
+                        i.pull-right.ss-check
+                      li.list-group-item
+                        span.done Choose keywords
+                        i.pull-right.ss-check
+                      li.list-group-item
+                        span.done Understand importance of keywords
+                        i.pull-right.ss-check
+                      li.list-group-item
+                        span.text-muted Meta data best practices
+                      li.list-group-item
+                        span.text-muted Understand analytics dashboard
+                      li.list-group-item
+                        span.text-muted How to increase traffic
+
+
+
+
+
+
+
+                p
+                    | We'll save your progress as we go, so you can track progress
+
+                label.form-label Your email address:
+                input.form-control(type="text", placeholder="")
+
+                label.form-label Choose password:
+                input.form-control(type="text", placeholder="")
+
+
+            //- Navigation buttons
+            div.row.space-top
+                .col-sm-6
+                    a.btn-block.btn.btn-success(href="keywords.html")
+                        |  Back
+                .col-sm-6
+                    a.btn-block.btn.btn-success(href="signup.html")
+                        |  Continue
+
+
+include partials/_footer
